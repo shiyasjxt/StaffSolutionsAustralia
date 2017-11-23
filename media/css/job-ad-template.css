@@ -1,0 +1,82 @@
+p {margin-bottom: 24px;}
+ul, ol {padding: 0; margin: 0 0 24px 5px;}
+
+#job-ad-template
+{
+float: left;
+border: solid 1px #ddd;
+border-radius: 4px;
+overflow: hidden;
+}
+#job-ad-template.job-ad-mickey
+{
+	width: 536px;
+}
+#job-ad-template a
+{
+	color: #428bca;
+}
+#job-ad-template a:hover {}
+#job-ad-header, #job-ad-content, #job-ad-footer
+{
+	padding: 0 20px; /* horizontal padding  here*/
+}
+.job-ad-part
+{
+	margin: 14px 0; /* vertical margin here */
+}
+#job-ad-header
+{
+	background: url("../images/job-ad-logo.png") no-repeat 50% 50% #F5F5F5;
+}
+#job-ad-header h2
+{
+	margin: 0;
+	padding: 0;
+}
+#job-ad-header h2 a
+{
+	display: block;
+	height: 120px;
+	
+	text-indent: -5000px;
+}
+#job-ad-title h1
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	/* copy and paste styles from h2 here */
+}
+#job-ad-content h2
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	
+	/* copy and paste styles from h3 here */
+}
+#job-ad-template ul
+{
+	list-style: disc;
+}
+#job-ad-template li
+{
+	margin: 0 0 0 16px;
+}
+.job-ad-optional-heading
+{
+	font-weight: bold;
+}
+#job-ad-footer {background: #F1F1F1;}
+#job-ad-footer a {
+display: block;
+height: 50px;
+color: #909090;
+line-height: 50px;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+#job-ad-optional {}
