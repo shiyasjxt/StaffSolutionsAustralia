@@ -188,11 +188,11 @@ $(document).ready(function() {
 	});*/
 		
 	// News feed
-	$('#myNewsDiv.feed-knowledge').rssInclude({
+	$('#myNewsDiv.feed-knowledge').includeFeed({
 		baseParams: { contentType: "xml", rssURL: "/newsrss.aspx?category=knowledge-centre", ellipsis: "&hellip;", itemTag: "li", limit: 1, title: 50 }, 
 		elements: { description: 0 } 
 	});
-	$('#myNewsDiv.feed-placements').rssInclude({
+	$('#myNewsDiv.feed-placements').includeFeed({
 		baseParams: { contentType: "xml", rssURL: "/newsrss.aspx?category=placements", ellipsis: "&hellip;", itemTag: "li", limit: 3, title: 50 }
 	});
 
