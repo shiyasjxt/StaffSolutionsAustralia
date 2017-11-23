@@ -4,6 +4,9 @@
 // jquery
 $(function(){
 
+	$(".rss-item-pubDate").html("");
+	
+
 	// $('.languages').prependTo($('.multilingual'));
 
 
